@@ -18,11 +18,13 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: https://pryntcases.com
+    status: 301
+    note: declared website redirects to https://qqdewatimur.com/ — a different registrable domain (pryntcases.com
+      -> qqdewatimur.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'https://pryntcases.com', status: 301, note: 'declared website redirects to https://qqdewatimur.com/ — a different registrable domain (pryntcases.com -> qqdewatimur.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prynt.png
 name: Prynt
 description: Prynt is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
@@ -36,9 +38,10 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-09-15'
 tags:
 - Company
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -49,10 +52,10 @@ common:
 - type: Website
   url: https://pryntcases.com
 x-status: defunct
-x-status-note: 'pryntcases.com no longer resolves to the company; it 301-redirects
-  off-host into a spam/gambling domain chain (qqdewapremium.com -> qqdewacash.com).
-  Prynt (photo-printing phone-case startup) appears defunct with a lapsed domain. No
-  API surface, developer portal, docs, or specs exist to search, derive, or generate.'
+x-status-note: pryntcases.com no longer resolves to the company; it 301-redirects off-host into a spam/gambling
+  domain chain (qqdewapremium.com -> qqdewacash.com). Prynt (photo-printing phone-case startup) appears
+  defunct with a lapsed domain. No API surface, developer portal, docs, or specs exist to search, derive,
+  or generate.
 x-enrichment:
   date: '2026-07-20'
   status: nochange
